@@ -10,6 +10,9 @@ using StudentMVVM18112019.ViewModel;
 
 namespace StudentMVVM18112019.Handler
 {
+    /// <summary>
+    /// Denne klasse håndterer events fra brugeren når denne klikker på en knap i View klassen
+    /// </summary>
     public class CreateStudentHandler
     {
         public CreateStudentViewModel CreateStudentViewModel { get; set; }

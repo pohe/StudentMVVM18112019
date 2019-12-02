@@ -14,6 +14,8 @@ namespace StudentMVVM18112019.Handler
     {
         public StudentViewModel StudentViewModel { get; set; }
 
+        public int Test { get; set; }
+
         public ManageStudentHandler(StudentViewModel studentViewModel)
         {
             StudentViewModel = studentViewModel;
